@@ -61,11 +61,11 @@ elif temp == 68:
 else:
     print('cold') """
 
-num = int(input("put your number here:"))
+""" num = int(input("put your number here:"))
 if (num % 2) == 0:
     print("even")
 else:
-    print("odd")
+    print("odd") """
 
 
 
@@ -79,7 +79,7 @@ elif service == "okay":
 elif service == "bad":
     print('0%')
 else:
-    print('Dont leave tip')
+    print('Dont leave tip') """
 
 def gcf(x,y):
     if x > y:
@@ -91,8 +91,8 @@ def gcf(x,y):
             gcf = i
     return gcf
 
-factor1 = int(input("Put your 1st number here:"))
-factor2 = int(input("Put your 2nd number here:"))
+factor1 = int(input("Put your first number here:"))
+factor2 = int(input("Put your second number here:"))
 
 print("Greatest Common Factor:", gcf(factor1, factor2))
 
@@ -104,4 +104,4 @@ for i in range(1, factor1+1):
 print("Factors of number 2: ".format(factor2))
 for i in range(1, factor2+1):
     if(factor2 % i == 0 ):
-        print(i) """
+        print(i) 
