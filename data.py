@@ -38,9 +38,70 @@ z = y[0]
 print(y)
 print(z) """
 
-sentence = "I love pizza and icecream"
+""" sentence = input():
 word = sentence.split( )
 z = 1
 for i in sentence:
-    print(z)
+    print(z) """
 
+""" day_of_week = input("what day is it? ")
+if day_of_week == "Friday":
+    print("correct")
+else:
+    print("incorrect") """
+
+""" x = "test"
+print(f"hello {x}") """
+
+""" temp = 75
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold') """
+
+num = int(input("put your number here:"))
+if (num % 2) == 0:
+    print("even")
+else:
+    print("odd")
+
+
+
+""" service = input("Describe the service using the words great, good, okay, or bad: ")
+if service == "great":
+    print('25%')
+elif service == "good":
+    print('20%')
+elif service == "okay":
+    print('15%')
+elif service == "bad":
+    print('0%')
+else:
+    print('Dont leave tip')
+
+def gcf(x,y):
+    if x > y:
+        smaller = y
+    else:
+        smaller = x
+    for i in range(1,smaller+1):
+        if((x % i ==0)) and ((y % i ==0)):
+            gcf = i
+    return gcf
+
+factor1 = int(input("Put your 1st number here:"))
+factor2 = int(input("Put your 2nd number here:"))
+
+print("Greatest Common Factor:", gcf(factor1, factor2))
+
+print("Factors of number 1: ".format(factor1))
+for i in range(1, factor1+1):
+    if(factor1 % i == 0 ):
+        print(i)
+
+print("Factors of number 2: ".format(factor2))
+for i in range(1, factor2+1):
+    if(factor2 % i == 0 ):
+        print(i) """
