@@ -89,11 +89,8 @@ for i in range(1,number+1):
 
 number1 = int(input("Put your first number here:"))
 number2 = int(input("Put your second number here:"))
-if  number1 > number2:
-        smaller = number2
-else:
-        smaller = number1
-for i in range(1,smaller+1):
+
+for i in range(1,number1+1):
     if(number1 % i == 0) and (number2 % i == 0):
             gcf = i
 print(gcf)
