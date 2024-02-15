@@ -81,27 +81,19 @@ elif service == "bad":
 else:
     print('Dont leave tip') """
 
-def gcf(x,y):
-    if x > y:
-        smaller = y
-    else:
-        smaller = x
-    for i in range(1,smaller+1):
-        if((x % i ==0)) and ((y % i ==0)):
+""" number = int(input("Put your number here:"))
+print("Factors:")
+for i in range(1,number+1):
+    if number%i == 0:
+        print(i) """
+
+number1 = int(input("Put your first number here:"))
+number2 = int(input("Put your second number here:"))
+if  number1 > number2:
+        smaller = number2
+else:
+        smaller = number1
+for i in range(1,smaller+1):
+    if(number1 % i == 0) and (number2 % i == 0):
             gcf = i
-    return gcf
-
-factor1 = int(input("Put your first number here:"))
-factor2 = int(input("Put your second number here:"))
-
-print("Greatest Common Factor:", gcf(factor1, factor2))
-
-print("Factors of number 1: ".format(factor1))
-for i in range(1, factor1+1):
-    if(factor1 % i == 0 ):
-        print(i)
-
-print("Factors of number 2: ".format(factor2))
-for i in range(1, factor2+1):
-    if(factor2 % i == 0 ):
-        print(i) 
+print(gcf)
