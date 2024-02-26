@@ -30,13 +30,13 @@ for i in values:
     print(i)
 
 print(values[0])
-print(values[6])
+print(values[6])""" 
 
 x = "this is a thing"
 y= x.split( )
 z = y[0]
 print(y)
-print(z) """
+print(z) 
 
 """ sentence = input():
 word = sentence.split( )
@@ -87,10 +87,10 @@ for i in range(1,number+1):
     if number%i == 0:
         print(i) """
 
-number1 = int(input("Put your first number here:"))
+""" number1 = int(input("Put your first number here:"))
 number2 = int(input("Put your second number here:"))
 
 for i in range(1,number1+1):
     if(number1 % i == 0) and (number2 % i == 0):
             gcf = i
-print(gcf)
+print(gcf) """
