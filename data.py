@@ -32,11 +32,11 @@ for i in values:
 print(values[0])
 print(values[6])""" 
 
-x = "this is a thing"
+""" x = "this is a thing"
 y= x.split( )
 z = y[0]
 print(y)
-print(z) 
+print(z)  """
 
 """ sentence = input():
 word = sentence.split( )
@@ -90,13 +90,13 @@ for i in range(1,number+1):
 number1 = int(input("Put your first number here:"))
 number2 = int(input("Put your second number here:"))
 
-def gcf(x,y):
-    if x > y:
-        smaller = y
+def gcf(number1,number2):
+    if number1 >  number2:
+        smaller = number2
     else:
-        smaller = x
+        smaller = number1
     for i in range(1, smaller+1):
-        if(x % i == 0) and (y % i == 0):
+        if(number1 % i == 0) and (number2 % i == 0):
             gcf = i
-    return(gcf)
+    return gcf
 print(gcf(number1,number2))
